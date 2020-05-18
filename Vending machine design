@@ -1,0 +1,15 @@
+### You need to write code to implement a Vending machine that has a bunch of products like chocolates, candy, cold-drink and 
+accept some coins like Nickle, Dime, Quarter, Cent, etc. Make sure you insert a coin, get a product back and get your chance 
+back. Also, think about the Unit tests. ###
+
+-------------->
+vending machine has products; quantity; prices.
+we can simply give a cahsless wallet payment or else keep track of each coin Accounts and delete from there as well.
+account will depend on prices.
+
+now when user put in money we will keep it aside in tray only. then we calculate whether we will be able to make change and deliver product.
+found two sub problems.
+    makechange problem()
+    productexists()
+at last we will calculate and update the accounts table from makechange() and usermoney().
+then we will change the products table as well to keep it up to date for next transaction.
